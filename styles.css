@@ -10,7 +10,7 @@ body {
 header {
   background-color: #232323;
   display: flex;
-  height: 130px;
+  min-height: 130px;
   justify-content: space-between;
 }
 
@@ -19,9 +19,9 @@ nav {
   color: #909090;
   display: flex;
   flex-wrap: wrap;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 20px;
-  padding-top: 85px;
+  padding-top: 108px;
 }
 
 .shares {
@@ -36,7 +36,7 @@ nav {
 
 .fa-list-ul, 
 .fa-user {
-  color: #006990;
+  color: #d41502;
   margin-left: 50px;
 }
 
@@ -54,31 +54,31 @@ section {
 }
 
 .admin-username {
-  color: #006990;
-  font-size: 1rem;
+  color: #d41502;
+  font-size: 1.1rem;
 }
 
 .hear {
   margin-top: 30px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 h1 {
   color: #FFF;
   font-family: 'Roboto Slab', serif;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
 /*right nav icons*/
 .fa-user-circle {
   color: #909090;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-right: .3rem;
 }
 
 .fa-caret-down {
-  color: #006990;
-  font-size: 1.2rem;
+  color: #d41502;
+  font-size: 1.3rem;
   margin-left: 5px;
 }
 
@@ -91,6 +91,7 @@ h1 {
 
 /*mid-secton*/
 h2 {
+  font-size: 2.3rem;
   margin: 30px 0px 30px 20px;
 }
 
@@ -122,6 +123,7 @@ h2 {
   height: 150px;
   justify-content: flex-end;
   justify-content: space-between;
+  opacity: 0.9;
 }
 
 .photo1 {
@@ -130,10 +132,15 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo1:hover {
+  background:
+  url('nick-karvounis-559285-unsplash (1).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .photo2 {
@@ -142,10 +149,14 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo2:hover {
+  background:
+  url('yvette-de-wit-118719-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo3 {
@@ -154,10 +165,14 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo3:hover {
+  background:
+  url('joseph-pearson-411277-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo4 {
@@ -166,22 +181,30 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo4:hover {
+  background:
+  url('desi-mendoza-451-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo5 {
   background:
-  url('yuan-thirdy-583227-unsplash.jpg');
+  url('vidar-nordli-mathisen-581896-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo5:hover {
+  background:
+  url('gbarkz-489384-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo6 {
@@ -190,22 +213,30 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo6:hover {
+  background:
+  url('jodie-walton-502797-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo7 {
   background:
-  url('austin-neill-213461-unsplash.jpg');
+  url('jaap-straydog-525583-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo7:hover {
+  background:
+  url('vishnu-r-nair-639172-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo8 {
@@ -214,10 +245,14 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  height: 150px;
-  justify-content: flex-end;
-  justify-content: space-between;
+}
+
+.photo8:hover {
+  background:
+  url('lifesimply-rocks-99718-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .arrow {
@@ -234,12 +269,12 @@ i {
    font-size: 3.2rem;
 }
 
-h3 {
-  font-size: 2rem;
+i:hover {
+  cursor: pointer;
 }
 
-.attachments-number {
-  color: #006990;
+h3 {
+  font-size: 2rem;
 }
 
 /*bottom half of the box containing info*/
@@ -248,16 +283,16 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .date {
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 .link {
   background-color: #EFEFEF;
-  font-size: .7rem;
+  font-size: .8rem;
   height: 40px;
   margin: 15px 10px 15px 0px;
   padding-left: 5px;
@@ -265,9 +300,29 @@ h4 {
 }
 
 .playlist, .attachments {
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 .name-of-playlist {
   margin-bottom: 10px;
+}
+
+.attachments-number {
+  color: #d41502;
+}
+
+/*media query for large screens*/
+@media screen and (max-width: 730px) {
+
+.nav {
+  display: none;
+}
+
+.hear {
+  /*display: flex;
+  align-items: center;*/
+  margin: 0 auto;
+  padding: 0px;
+}
+
 }

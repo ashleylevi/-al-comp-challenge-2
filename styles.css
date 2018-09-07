@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #3f2f53;
+  background-color: #232323;
   display: flex;
   height: 130px;
   justify-content: space-between;
@@ -16,12 +16,16 @@ header {
 
 /*left side of header*/
 nav {
+  color: #909090;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.1rem;
   margin-left: 20px;
   padding-top: 85px;
-  font-weight: 700;
+}
+
+.shares {
+  color: #FFF;
 }
 
 /*left nav icons*/
@@ -32,6 +36,7 @@ nav {
 
 .fa-list-ul, 
 .fa-user {
+  color: #006990;
   margin-left: 50px;
 }
 
@@ -49,6 +54,7 @@ section {
 }
 
 .admin-username {
+  color: #006990;
   font-size: 1rem;
 }
 
@@ -58,24 +64,29 @@ section {
 }
 
 h1 {
+  color: #FFF;
   font-family: 'Roboto Slab', serif;
   font-size: 2.2rem;
 }
 
 /*right nav icons*/
 .fa-user-circle {
+  color: #909090;
   font-size: 1.1rem;
   margin-right: .3rem;
 }
 
 .fa-caret-down {
+  color: #006990;
   font-size: 1.2rem;
   margin-left: 5px;
 }
 
 .fa-headphones {
+  color: #FFF;
   font-size: 2rem;
   margin-left: 5px;
+
 }
 
 /*mid-secton*/
@@ -104,9 +115,102 @@ h2 {
 
 /*top half of the box with photo*/
 .photo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo1 {
   background:
-/*  linear-gradient(rgba(77,77,77, 0.5), rgba(77,77,77, 0.1)),*/
-   url('wesley-tingey-223061-unsplash.jpg');
+  url('melanie-van-leeuwen-83775-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo2 {
+  background:
+  url('hector-bermudez-291156-unsplash (1).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo3 {
+  background:
+  url('vidar-nordli-mathisen-625757-unsplash (1).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo4 {
+  background:
+  url('vidar-nordli-mathisen-600399-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo5 {
+  background:
+  url('yuan-thirdy-583227-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo6 {
+  background:
+  url('harry-swales-385863-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo7 {
+  background:
+  url('austin-neill-213461-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 150px;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.photo8 {
+  background:
+  url('adult-beard-blur-167446.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,10 +222,12 @@ h2 {
 
 .arrow {
   margin: 10px 0px 0px 15px;
+  color: #FFF;
 }
 
 .views {
   margin: 10px 15px 0px 0px;
+  color: #FFF;
 }
 
 i {
@@ -130,6 +236,10 @@ i {
 
 h3 {
   font-size: 2rem;
+}
+
+.attachments-number {
+  color: #006990;
 }
 
 /*bottom half of the box containing info*/

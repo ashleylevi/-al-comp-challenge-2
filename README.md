@@ -16,7 +16,7 @@
 
 ### Original Comp
 
-![alt text](https://farm2.staticflickr.com/1868/42735741460_dcc975cf9b.jpg)
+![alt text](https://farm2.staticflickr.com/1871/43635246655_667762762b_b.jpg)
 
 ### My Version
 

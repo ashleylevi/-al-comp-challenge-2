@@ -16,10 +16,10 @@
 
 ### Original Comp
 
-![alt text](https://farm2.staticflickr.com/1887/43508969145_28aba66ad4_k.jpg)
+![alt text](ttps://farm2.staticflickr.com/1868/42735741460_dcc975cf9b.jpg)
 
 ### My Version
 
 All photos are from Unsplash.com
 
-![alt text](https://farm2.staticflickr.com/1858/44385662572_a2e19e6329_k.jpg)
+![alt text](https://farm2.staticflickr.com/1863/42735747190_7b66c67983.jpg)

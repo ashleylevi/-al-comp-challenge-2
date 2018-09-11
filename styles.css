@@ -24,6 +24,10 @@ nav {
   padding-top: 108px;
 }
 
+nav:hover {
+  cursor: pointer;
+}
+
 #hamburger {
   display:none;
 }

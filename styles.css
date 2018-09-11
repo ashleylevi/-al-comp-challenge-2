@@ -302,7 +302,11 @@ h4 {
   overflow-wrap: break-word;
   padding-left: 5px;
   padding-top: 5px;
+}
 
+.link:hover {
+  cursor: pointer;
+  color: #d41502;
 }
 
 .playlist, .attachments {
@@ -472,5 +476,17 @@ h1 {
 
 .fa-headphones {
   font-size: 3rem;
+}
+}
+
+/*media query for large screens*/
+@media screen and (min-width: 1500px) {
+
+  .boxes-container {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 30px;
 }
 }
